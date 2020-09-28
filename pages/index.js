@@ -1,41 +1,43 @@
 import Head from 'next/head'
-import styles from '../styles/Index.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Two Strategists</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <header>
+        <p>Two Strategists</p>
+      </header>
+
+      <main>
         <section>
           <h1 >Who are you in the new economy?</h1>
-          <p>We can help you with that.</p>
+          <h2>We can help you with that.</h2>
         </section>
 
         <section>
           <h1>Two strategists – one brand, one culture.</h1>
-          <p>Working together to redefine your brand and culture through a meaningful purpose.</p>
+          <h2>Working together to redefine your brand and culture through a meaningful purpose.</h2>
         </section>
 
         <section>
-          <h2>A proven process.</h2>
-          <p>Flexible. Fast. Effective.</p>
+          <h1>A proven process.</h1>
+          <h3>Flexible. Fast. Effective.</h3>
+          <br/>
+          <br/>
+          <h3>Review</h3>
+          <p>We review your current brand and culture. We listen, read, have conversations and together we work out what’s needed for your business.</p>
 
-          <h2>REVIEW</h2>
-          <p>We review your current brand and culture
-          We listen, read, have conversations and together we work out what’s needed for your business.</p>
+          <h3>Define</h3>
+          <p>We create a purposeful strategy and narrative. Defining the foundations of your brand and culture from the inside out — to drive business growth.</p>
+          {/* DNA strand */}
+          <p>We start with understanding what you stand, what draws you together and what’s driving you forward. These are the building blocks to creating an aligned brand and culture strategy.</p>
 
-          <h2>DEFINE</h2>
-          <p>We create a purposeful strategy and narrative
-          Defining the foundations of your brand and culture from the inside out — to drive business growth.</p>
-          <p>(DNA strand from Geyser presso doc – screenshot attached – Hils – anything you want to add/delete?) We start with understanding what you stand, what draws you together and what’s driving you forward. These are the building blocks to creating an aligned brand and culture strategy.</p>
-
-          <h2>EMBED</h2>
-          <p>We develop a roadmap
-          We make it easy for you to activate the strategy fast and effectively with clear priorities.</p>
+          <h3>Embed</h3>
+          <p>We develop a roadmap. We make it easy for you to activate the strategy fast and effectively with clear priorities.</p>
         </section>
 
         <section>
@@ -54,11 +56,12 @@ export default function Home() {
 
         <section>
           <h2>Together.</h2>
-          <p>The Warehouse Group (quote from Fiona H?)
-          ACC (quote from Shaun ?)
-          IANZ (quote from Elizabeth?)</p>
-          <p>(do we need this?)
-          Our success is measured in your people’s engagement lift and your overall business performance.</p>
+          <ul>
+            <li><p>The Warehouse Group (quote from Fiona H?)</p></li>
+            <li><p>ACC (quote from Shaun ?)</p></li>
+            <li><p>IANZ (quote from Elizabeth?)</p></li>
+          </ul>
+          <p>Our success is measured in your people’s engagement lift and your overall business performance.(do we need this?)</p>
         </section>
 
         <section>
@@ -67,8 +70,9 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className={styles.footer}>
+      <footer>
+        copyright two strategists 2020
       </footer>
-    </div>
+    </>
   )
 }
