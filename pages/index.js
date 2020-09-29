@@ -89,7 +89,7 @@ export default function Home() {
       </main>
 
       <footer>
-        {/* copyright two strategists 2020 */}
+        Master
       </footer>
     </>
   )
