@@ -66,7 +66,7 @@ h1 {
   margin-bottom: 2.0rem;
 }
 
-h2 {
+h2, h2 a {
   font-weight: bold;
   font-size: 7.2rem;
   line-height: 7.6rem;
@@ -95,9 +95,9 @@ h4 {
 p {
   font-weight: normal;
   font-size: 2.0rem;
-  line-height: 2.4rem;
+  line-height: 2.6rem;
   letter-spacing: .02rem;
-  max-width: 65rem;
+  max-width: 55rem;
   margin-bottom: 2.0rem;
 }
 
@@ -152,12 +152,12 @@ section {
 
 .about{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 4.6rem;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 9.6rem;
 }
 
 .about h2 {
-  grid-column: span 3;
+  grid-column: span 2;
   margin-bottom: 4.2rem;
 }
 
@@ -175,4 +175,33 @@ footer {
   width: 100vw;
   height: 80px;
   scroll-snap-align: end;
+}
+
+/*------- Mobile --------*/
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 52%
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 5.8rem;
+    line-height: 5.8rem;
+  }
+
+  h2, h2 a {
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+  }
+
+  .about {
+    flex-direction: row;
+  }
+
+  .profile {
+    grid-column: span 2;
+    margin-bottom: 4.2rem;
+  }
 }

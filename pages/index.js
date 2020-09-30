@@ -28,7 +28,7 @@ export default function Home() {
 
         <section>
           <h1>Flexible. Fast. Effective.</h1>
-          <h3>A proven process. →</h3>
+          <h3>A proven process.</h3>
         </section>
 
         <section>
@@ -41,10 +41,6 @@ export default function Home() {
           <h2>Define</h2>
           <h3>We create a purposeful strategy and narrative.</h3>
           <h4>Defining the foundations of your brand and culture from the inside out — to drive business growth.</h4>
-        </section>
-
-        <section>
-          <img src="DNA strand"/>
           <h4>We start with understanding what you stand for, what draws you together and what’s driving you forward. These are the building blocks to creating an aligned brand and culture strategy.</h4>
         </section>
 
@@ -60,7 +56,7 @@ export default function Home() {
           <div className="profile">
             <h3>Hilary Cootes</h3>
             <h4>Brand strategist.</h4>
-            <p>20 years. 7 agencies. 4 countries.
+            <p>20 years. 7 agencies. 4 countries.<br/>
             Large international brands and brands for proud local owners.
             </p>
             <a href="https://hilarycootes.com/">hilarycootes.com</a>
@@ -69,22 +65,25 @@ export default function Home() {
           <div className="profile">
             <h3>Kath Knight</h3>
             <h4>Culture strategist.</h4>
-            <p>20 years. Ex agency owner.
+            <p>20 years. Ex agency owner.<br/>
             Government. FMCG. Energy. Insurance. Finance
             </p>
             <a href="/">LinkedIn</a>
           </div>
 
+          {/*
           <div className="profile">
-            {/*<a href="/">The Warehouse Group (quote from Fiona H?)</a>
+            <a href="/">The Warehouse Group (quote from Fiona H?)</a>
             <a href="/">ACC (quote from Shaun ?)</a>
-            <a href="/">IANZ (quote from Elizabeth?)</a>*/}
-            <p>Our success is measured in your people’s engagement lift and your overall business performance.(do we need this?)</p>
+            <a href="/">IANZ (quote from Elizabeth?)</a>
+            <p>Our success is measured in your people’s engagement lift and your overall business performance.</p>
+            (do we need this?)
           </div>
+          */}
         </section>
 
         <section>
-          <h2>Contact us →</h2>
+          <h2><a href="/">Contact us →</a></h2>
         </section>
       </main>
 
