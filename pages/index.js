@@ -11,7 +11,7 @@ export default function Home() {
 
       <header>
         <a href="/" className="title">Two Strategists</a>
-        <a href="/">info@twostrategists.nz</a>
+        <a href="/" className="email">info@twostrategists.nz</a>
       </header>
 
       <main>
