@@ -32,7 +32,18 @@ li {
 /*------- base styles -------*/
 
 html {
-  font-family: "Epilogue", sans-serif;
+  font-family: Helvetica, sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  padding: 0 var(--h-margin);
+  overflow-x: hidden;
+}
+
+header {
+
 }
 
 /*------- colour --------*/
@@ -45,36 +56,35 @@ body {
 /*------- typography --------*/
 
 h1 {
-  font-size: 96;
+  font-size: 96px;
 }
 
 h2 {
-  font-size: 60;
+  font-size: 60px;
 }
 
 h3 {
-  font-size: 48;
+  font-size: 48px;
 }
-h4 {
-  font-size: 34;
+
+.subtitle-1 {
+  font-size: 34px;
 }
-.body {
-  font-size: 16;
+
+.subtitle-2 {
+  font-size: 16px;
 }
-.body2 {
-  font-size: 14;
+
+P {
+  font-size: 16px;
 }
-.subtitle1 {
-  font-size: 16;
+
+a {
+  font-size: 14px;
 }
-.subtitle2 {
-  font-size: 14;
-}
-.button {
-  font-size: 14;
-}
+
 .caption {
-  font-size: 12;
+  font-size: 12px;
 }
 
 /*------- layout --------*/
