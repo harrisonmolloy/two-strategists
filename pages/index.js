@@ -17,33 +17,35 @@ export default function Home() {
       </header>
 
       <section>
-        <h1>Who are you in the new economy?</h1>
-        <h2>We can help you with that.</h2>
+        <h2>Who are you in the new economy?</h2>
+        <p class="subtitle">We can help you with that.</p>
       </section>
 
       <section>
         <h1>Two strategists - one brand, one culture.</h1>
-        <h2>Working together to redefine your brand and culture through a meaningful purpose.</h2>
+        <p class="subtitle">Working together to redefine your brand and culture through a meaningful purpose.</p>
       </section>
 
       <section className="process">
         <h1>Flexible. Fast. Effective.</h1>
-        <h2>A proven process.</h2>
+        <p class="subtitle">A proven process.</p>
         <ul>
           <li>
             <h2>Review</h2>
-            <h3>We review your current brand and culture.</h3>
+            <p class="subtitle">We review your current brand and culture.</p>
             <p>We listen, read, have conversations and together we work out what’s needed for your business.</p>
           </li>
           <li>
             <h2>Define</h2>
-            <h3>We create a purposeful strategy and narrative.</h3>
+            <p class="subtitle">
+              We create a purposeful strategy and narrative.
+            </p>
             <p>Defining the foundations of your brand and culture from the inside out — to drive business growth.</p>
             <p>We start with understanding what you stand for, what draws you together and what’s driving you forward. These are the building blocks to creating an aligned brand and culture strategy.</p>
           </li>
           <li>
             <h2>Embed</h2>
-            <h3>We develop a roadmap.</h3>
+            <p class="subtitle">We develop a roadmap.</p>
             <p>We make it easy for you to activate the strategy fast and effectively with clear priorities.</p>
           </li>
         </ul>
@@ -53,7 +55,7 @@ export default function Home() {
         <ul>
           <li>
             <h3>Hilary Cootes</h3>
-            <h4>Brand strategist.</h4>
+            <p class="subtitle">Brand strategist.</p>
             <p>20 years. 7 agencies. 4 countries.<br/>
             Large international brands and brands for proud local owners.
             </p>
@@ -61,7 +63,7 @@ export default function Home() {
           </li>
           <li>
             <h3>Kath Knight</h3>
-            <h4>Culture strategist.</h4>
+            <p class="subtitle">Culture strategist.</p>
             <p>20 years. Ex agency owner.<br/>
             Government. FMCG. Energy. Insurance. Finance
             </p>

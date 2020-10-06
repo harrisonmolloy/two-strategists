@@ -1,15 +1,18 @@
 /*------- variables --------*/
 
 :root {
-  --black: rgba(15,15,15,1);
-  --white: rgba(242,242,242,1);
+  --black: rgba(15, 15, 15, 1);
+  --white: rgba(242, 242, 242, 1);
   --h-margin: 20px;
   --v-margin: 10px;
 }
 
 /*------- reset --------*/
 
-html, body, ul, p {
+html,
+body,
+ul,
+p {
   margin: 0;
   padding: 0;
 }
@@ -18,19 +21,18 @@ ul {
   list-style-type: none;
 }
 
-p, a, li {
+p,
+a,
+li {
   text-decoration: none;
   color: var(--black);
 }
-
-
-
 
 /*---------------------------*/
 /*------- base styles -------*/
 
 html {
-  font-family: 'Epilogue', sans-serif;
+  font-family: "Epilogue", sans-serif;
 }
 
 /*------- colour --------*/
@@ -40,48 +42,60 @@ body {
   color: var(--black);
 }
 
-
 /*------- typography --------*/
 
-h1 {font-size: 96}
-h2 {font-size: 60}
-h3 {font-size: 48}
-h4 {font-size: 34}
-.body {font-size: 16}
-.body2 {font-size: 14}
-.subtitle1 {font-size: 16}
-.subtitle2 {font-size: 14}
-.button {font-size: 14}
-.caption {font-size: 12}
+h1 {
+  font-size: 96;
+}
+
+h2 {
+  font-size: 60;
+}
+
+h3 {
+  font-size: 48;
+}
+h4 {
+  font-size: 34;
+}
+.body {
+  font-size: 16;
+}
+.body2 {
+  font-size: 14;
+}
+.subtitle1 {
+  font-size: 16;
+}
+.subtitle2 {
+  font-size: 14;
+}
+.button {
+  font-size: 14;
+}
+.caption {
+  font-size: 12;
+}
 
 /*------- layout --------*/
 
-
-
-
 /*------- tablet --------*/
 @media only screen and (min-width: 400px) {
-
-  html{
+  html {
     background: blue;
   }
-
 }
 
 /*------- laptop --------*/
 @media only screen and (min-width: 1200px) {
-
-  html{
+  html {
     background: red;
   }
-
 }
 
 /*------- desktop --------*/
 @media only screen and (min-width: 1600px) {
-
-  html{
+  html {
     background: green;
   }
-
 }
