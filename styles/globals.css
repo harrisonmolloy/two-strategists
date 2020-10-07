@@ -3,8 +3,8 @@
 :root {
   --black: rgba(15, 15, 15, 1);
   --white: rgba(242, 242, 242, 1);
-  --h-margin: 20px;
-  --v-margin: 10px;
+  --h-margin: 80px;
+  --v-margin: 16px;
 }
 
 /*------- reset --------*/
@@ -31,20 +31,8 @@ li {
 /*---------------------------*/
 /*------- base styles -------*/
 
-html {
-  font-family: Helvetica, sans-serif;
-}
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  padding: 0 var(--h-margin);
-  overflow-x: hidden;
-}
 
-header {
-
-}
 
 /*------- colour --------*/
 
@@ -55,57 +43,69 @@ body {
 
 /*------- typography --------*/
 
-h1 {
-  font-size: 96px;
-}
-
-h2 {
-  font-size: 60px;
-}
-
-h3 {
-  font-size: 48px;
-}
-
-.subtitle-1 {
-  font-size: 34px;
-}
-
-.subtitle-2 {
-  font-size: 16px;
-}
-
-P {
-  font-size: 16px;
-}
-
-a {
-  font-size: 14px;
-}
-
+h1,
+h2,
+h3,
+.subtitle-1,
+.subtitle-2,
+P,
+a,
 .caption {
-  font-size: 12px;
+  font-family: courier, Helvetica, sans-serif;
+  font-size: 96px;
+  line-height: 100px;
+  font-weight: normal;
+  max-width: 80rem;
 }
 
 /*------- layout --------*/
 
+header {
+  margin-top: var(--v-margin);
+  margin-bottom: var(--v-margin);
+}
+
+header ul li:last-child {
+  display: none;
+}
+
+footer {
+  margin-bottom: var(--v-margin);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 0 var(--h-margin);
+  overflow-x: hidden;
+}
+
+.grid * {
+  grid-column: span 1;
+}
+
+section {
+  margin-bottom: 80px;
+  overflow: hidden;
+}
+
 /*------- tablet --------*/
-@media only screen and (min-width: 400px) {
+/* @media only screen and (min-width: 400px) {
   html {
     background: blue;
   }
-}
+} */
 
 /*------- laptop --------*/
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
   html {
     background: red;
   }
-}
+} */
 
 /*------- desktop --------*/
-@media only screen and (min-width: 1600px) {
+/* @media only screen and (min-width: 1600px) {
   html {
     background: green;
   }
-}
+} */
