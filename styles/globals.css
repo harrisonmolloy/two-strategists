@@ -11,7 +11,7 @@
   --primary: rgb(31, 58, 172);
   --secondary: rgb(149, 150, 159);
 }
-/* 
+/*
 body {
   background-size: 8px 8px;
   background-image: linear-gradient(to bottom, grey 1px, transparent 1px),
@@ -224,14 +224,66 @@ li {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 72px;
+    line-height: 72px;
+  }
 
+  h2, h2 a {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  h3 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: .2px;
+  }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
+  main {
+    margin-left: 24px;
+  }
 
-}
+  header {
+    padding-top: 32px;
+  }
 
-@media only screen and (max-width: 320px) {
+  header a {
+    margin-left: 24px;
+  }
 
+  h1 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  h2, h2 a {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  h3 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: .2px;
+  }
+
+  .process {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    scroll-snap-align: none;
+  }
 }
