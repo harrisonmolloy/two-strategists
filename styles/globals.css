@@ -251,6 +251,7 @@ li {
 @media only screen and (max-width: 400px) {
   main {
     padding-left: 24px;
+    padding-bottom: 40px;
   }
 
   header {
