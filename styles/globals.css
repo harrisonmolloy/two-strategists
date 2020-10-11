@@ -84,7 +84,7 @@ h2, h2 a {
 h3 {
   font-weight: normal;
   font-size: 40rem;
-  line-height: 48rem;
+  line-height: 40rem;
   margin-bottom: 16rem;
   max-width: 700rem;
 }
@@ -121,14 +121,14 @@ p {
   font-size: 24rem;
   line-height: 32rem;
   letter-spacing: .2rem;
-  margin-bottom: 24rem;
+  margin-bottom: 18rem;
   max-width: 500rem;
 }
 
 .caption {
   font-weight: normal;
   font-size: 12rem;
-  line-height: 16rem;
+  line-height: 14rem;
   letter-spacing: .2rem;
   margin-bottom: 16rem;
   max-width: 500rem;
@@ -173,7 +173,6 @@ header a:last-child {
   display: none;
 }
 
-
 section {
   scroll-snap-align: center;
   display: flex;
@@ -202,12 +201,12 @@ section {
 }
 
 .about .profile{
-  padding-bottom: 72px;
+  padding-bottom: 68px;
 }
 
 .contact {
   min-height: 0;
-  margin-bottom: 48px;
+  margin-bottom: 42px;
 }
 
 /* footer {
