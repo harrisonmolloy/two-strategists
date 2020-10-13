@@ -98,7 +98,7 @@ export default function Home() {
               Government. FMCG. Energy. Insurance. Finance
             </p>
             <p>
-              <a href="/">LinkedIn</a>
+              <a href="https://nz.linkedin.com/in/kath-knight-63933922">LinkedIn</a>
             </p>
           </div>
 
@@ -115,7 +115,7 @@ export default function Home() {
 
         <section className="contact">
           <h2>
-            <a href="/">Contact us →</a>
+            <a href="mailto:kath@geyser.nz">Contact us →</a>
           </h2>
         </section>
       </main>
