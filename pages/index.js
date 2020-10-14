@@ -86,7 +86,9 @@ export default function Home() {
               <br />
               Large international brands and brands for proud local owners.
             </p>
-            <a href="https://hilarycootes.com/">hilarycootes.com</a>
+            <p>
+              <a href="https://hilarycootes.com/">hilarycootes.com</a>
+            </p>
           </div>
 
           <div className="profile">
@@ -98,7 +100,7 @@ export default function Home() {
               Government. FMCG. Energy. Insurance. Finance
             </p>
             <p>
-              <a href="https://nz.linkedin.com/in/kath-knight-63933922">LinkedIn</a>
+              <a href="http://geyser.nz/">geyser.nz</a>
             </p>
           </div>
 

@@ -1,22 +1,32 @@
 
-/*------- Variables --------*/
+/*------- Besline grid --------*/
 
-:root {
-  --black: rgb(31, 31, 31);
-  --white: rgb(240, 240, 240);
-
-  /* --primary: rgb(134, 135, 123);
-  --secondary: rgb(19, 52, 110); */
-
-  --primary: rgb(31, 58, 172);
-  --secondary: rgb(149, 150, 159);
-}
 /*
 body {
   background-size: 8px 8px;
   background-image: linear-gradient(to bottom, grey 1px, transparent 1px),
   linear-gradient(to right, grey 1px, transparent 1px);
 } */
+
+/*------- Variables --------*/
+
+/* f478c4 hilary pink */
+/* 00953b hilary green */
+/* a7d6d8 geyser blue */
+/* e47a8b geyser dark pink */
+/* 77c3b7 geyser teal */
+/* 338a67 geyser green */
+/* f1c1c9 geyser pink */
+/* edd94f geyser yellow */
+
+:root {
+  --black: #1f1f1f;
+  --white: #fafafa;
+  --background: #fafafa;
+  --primary: #51c656;
+  --secondary: #edd94f;
+
+}
 
 /*------- global fixes --------*/
 
@@ -34,19 +44,19 @@ body {
 /*------- colour --------*/
 
 body {
-  background-color: var(--primary);
+  background-color: var(--background);
 }
 
 *, p, a {
-  color: var(--secondary);
+  color: var(--primary);
 }
 
 h1, h2, h3, h4 {
-  color: var(--secondary);
+  color: var(--primary);
 }
 
-.title {
-  color: var(--secondary);
+.title h4 {
+  color: var(--primary);
 }
 
 /*------- typography --------*/
@@ -202,7 +212,7 @@ li {
 .contact {
   min-height: 0;
   margin-bottom: 42px;
-  margin-top: -36px;
+  margin-top: -16px;
 }
 
 /* footer {
