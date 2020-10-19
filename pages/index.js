@@ -7,7 +7,7 @@ export default function Home() {
         <title>Two Strategists</title>
         <link rel="icon" href="/favicon.ico" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;700;900&display=swap"
           rel="stylesheet"
         />
       </Head>
@@ -36,11 +36,11 @@ export default function Home() {
         </section>
 
         <section className="process">
-          <h1>Flexible. Focussed.</h1>
+          <h1>Flexible. Focused.</h1>
           <p className="subtitle">A proven process.</p>
           <ul>
             <li>
-              <h2>Review</h2>
+              <h3>Review</h3>
               <p className="subtitle-2">
                 We review your current brand and culture.
               </p>
@@ -51,7 +51,7 @@ export default function Home() {
             </li>
 
             <li>
-              <h2>Define</h2>
+              <h3>Define</h3>
               <p className="subtitle-2">
                 We create a purposeful strategy and narrative.
               </p>
@@ -67,7 +67,7 @@ export default function Home() {
             </li>
 
             <li>
-              <h2>Advise</h2>
+              <h3>Advise</h3>
               <p className="subtitle-2">We develop a roadmap.</p>
               <p>
                 We make it easy for you to activate the strategy fast and
@@ -80,7 +80,7 @@ export default function Home() {
         <section className="about">
           <div className="profile">
             <h3>Hilary Cootes</h3>
-            <p className="subtitle">Brand strategist.</p>
+            <p className="subtitle-2">Brand strategist.</p>
             <p>
               20 years. 7 agencies. 4 countries.
               <br />
@@ -93,7 +93,7 @@ export default function Home() {
 
           <div className="profile">
             <h3>Kath Knight</h3>
-            <p className="subtitle">Culture strategist.</p>
+            <p className="subtitle-2">Culture strategist.</p>
             <p>
               20 years. Ex agency owner.
               <br />
