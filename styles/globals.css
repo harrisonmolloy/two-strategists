@@ -25,7 +25,6 @@ body {
   --background: #fafafa;
   --primary: #51c656;
   --secondary: #edd94f;
-
 }
 
 /*------- global fixes --------*/
@@ -48,15 +47,15 @@ body {
 }
 
 *, p, a {
-  color: var(--primary);
+  color: var(--black);
 }
 
 h1, h2, h3, h4 {
-  color: var(--primary);
+  color: var(--black);
 }
 
 .title h4 {
-  color: var(--primary);
+  color: var(--black);
 }
 
 /*------- typography --------*/

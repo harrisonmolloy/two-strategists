@@ -36,7 +36,7 @@ export default function Home() {
         </section>
 
         <section className="process">
-          <h1>Flexible. Fast. Effective.</h1>
+          <h1>Flexible. Focussed.</h1>
           <p className="subtitle">A proven process.</p>
           <ul>
             <li>
@@ -67,7 +67,7 @@ export default function Home() {
             </li>
 
             <li>
-              <h2>Embed</h2>
+              <h2>Advise</h2>
               <p className="subtitle-2">We develop a roadmap.</p>
               <p>
                 We make it easy for you to activate the strategy fast and
@@ -117,7 +117,13 @@ export default function Home() {
 
         <section className="contact">
           <h2>
-            <a href="mailto:kath@geyser.nz">Contact us →</a>
+            <a
+              href="mailto:kath@geyser.nz,hilarycootes@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Contact us →
+            </a>
           </h2>
         </section>
       </main>
