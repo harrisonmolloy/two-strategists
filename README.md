@@ -1,1 +1,1 @@
-one pager for two strategists built with next.js
+One pager for two strategists built with next.js.
